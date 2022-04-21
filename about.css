@@ -1,0 +1,27 @@
+h2 {
+    color: red;
+    font-family: Franklin Gothic;
+    border: 2px solid  #1a0066;
+    border-radius: 6px;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+    font-family: Libre Caslon Display Regular;
+}
+
+p {
+    color: #1a0066;
+    font-family: Libre Caslon Display Regular;
+    font-size: 21px;
+}
+
+ /* Middle column */
+ .column.middle {
+    width: 94%;
+    border: 2px solid #1a0066;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    height: 500px;
+   
+  }

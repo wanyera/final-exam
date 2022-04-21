@@ -1,0 +1,67 @@
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+    border: 2px solid #1a0066;
+    padding-left: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  h2 {
+      color: red;
+      font-family: Franklin Gothic;
+      border: 2px solid  #1a0066;
+      border-radius: 6px;
+      background-color: white;
+      text-align: center;
+      padding: 4px;
+      font-family: Libre Caslon Display Regular;
+  }
+
+  .img2 {
+      width: 100%;
+  }
+
+  .img3 {
+      width: 70%;
+      height: 70%;
+      border-radius: 0%;
+      padding-left: 20%;
+  }
+
+  p {
+      color: #1a0066;
+      font-family: Libre Caslon Display Regular;
+      font-size: 21px;
+  }
+
+  .column.side li {
+      color: #1a0066;
+      font-family: Libre Caslon Display Regular;
+      font-size: 21px;
+  }
+
+  
